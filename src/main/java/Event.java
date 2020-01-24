@@ -38,9 +38,9 @@ public class Event extends Task {
         //return "[E]" + super.toString() + "(at: " + at + ")";
         String[] b = this.at.split(" ");
         if (b.length > 1) {
-            return "[E]" + super.toString() + "(by: " + dateToString() + " " + timeToString()+ ")";
+            return "[E]" + super.toString() + "(at: " + dateToString() + " " + timeToString()+ ")";
         } else {
-            return "[E]" + super.toString() + "(by: " + dateToString() + ")";
+            return "[E]" + super.toString() + "(at: " + dateToString() + ")";
         }
     }
 }
