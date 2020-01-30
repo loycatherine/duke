@@ -1,5 +1,8 @@
 import org.junit.jupiter.api.Test;
+import tasks.Deadline;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class DeadlineTest {
     Deadline deadline = new Deadline("cs3243 tutorial", "2020-01-31 17:00");
